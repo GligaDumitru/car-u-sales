@@ -1,0 +1,69 @@
+{
+  "cars": [
+    {
+      "id": "41ae95e4-8769-4928-9c35-de2ecf091ce8",
+      "name": "Vw Polo 1.3",
+      "color": "red",
+      "purchaseValue": "3500",
+      "status": "Sold"
+    },
+    {
+      "id": "17c9da61-8fc2-45a6-931a-41908faffefd",
+      "name": "VW Golf 6 1.6TDI",
+      "color": "red",
+      "purchaseValue": "5050",
+      "status": "Available"
+    },
+    {
+      "id": "44c63ed5-96ee-42da-9d31-f0e03e5223f0",
+      "name": "Vw Tiguan",
+      "color": "red",
+      "purchaseValue": "12700",
+      "status": "Sold"
+    }
+  ],
+  "sales": [
+    {
+      "id": "ca06460a-be98-4fa4-9133-061736aff25e",
+      "buyerName": "John Doe",
+      "sellerName": "Gliga Dumitru Dumitru",
+      "carName": "Vw Tiguan",
+      "carID": "44c63ed5-96ee-42da-9d31-f0e03e5223f0",
+      "sellerID": "78638a6f-c85d-4adb-8c1c-f2b1c09aa94e",
+      "sellPrice": "13800",
+      "markup": 1100,
+      "soldAt": "Thu Feb 03 2022"
+    },
+    {
+      "id": "15e57513-cd3d-46d0-8402-c5e8b5b87a11",
+      "buyerName": "John Doe",
+      "sellerName": "Gliga Dumitru Dumitru",
+      "carName": "Vw Polo 1.3",
+      "carID": "41ae95e4-8769-4928-9c35-de2ecf091ce8",
+      "sellerID": "78638a6f-c85d-4adb-8c1c-f2b1c09aa94e",
+      "sellPrice": "5000",
+      "markup": 1500,
+      "soldAt": "Thu Feb 03 2022"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "bf72d8f6-2ebb-4166-8d4a-abf1924809f7",
+      "name": "Mihai",
+      "lastName": "Popescu",
+      "markup": 0
+    },
+    {
+      "id": "9a8219cf-a90a-4f94-825f-693368f489bd",
+      "name": "John",
+      "lastName": "Doe",
+      "markup": 0
+    },
+    {
+      "id": "78638a6f-c85d-4adb-8c1c-f2b1c09aa94e",
+      "name": "Gliga Dumitru",
+      "lastName": "Dumitru",
+      "markup": 2600
+    }
+  ]
+}
