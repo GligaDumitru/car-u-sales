@@ -20,6 +20,13 @@
       "color": "red",
       "purchaseValue": "12700",
       "status": "Sold"
+    },
+    {
+      "id": "1c0d5d10-0443-484d-bab4-406e37f59b45",
+      "name": "VW Polo",
+      "color": "red",
+      "purchaseValue": "1238",
+      "status": "Sold"
     }
   ],
   "sales": [
@@ -44,6 +51,17 @@
       "sellPrice": "5000",
       "markup": 1500,
       "soldAt": "Thu Feb 03 2022"
+    },
+    {
+      "id": "9e6937b5-f92c-479a-919b-59cb425d181c",
+      "buyerName": "anonim",
+      "sellerName": "Gliga Dumitru Dumitru",
+      "carName": "VW Polo",
+      "carID": "1c0d5d10-0443-484d-bab4-406e37f59b45",
+      "sellerID": "78638a6f-c85d-4adb-8c1c-f2b1c09aa94e",
+      "sellPrice": "1238",
+      "markup": 0,
+      "soldAt": "Sat Jan 18 2025"
     }
   ],
   "sellers": [
@@ -64,6 +82,18 @@
       "name": "Gliga Dumitru",
       "lastName": "Dumitru",
       "markup": 2600
+    },
+    {
+      "id": "be031149-ae1d-4aa5-bce6-95d9e06172e1",
+      "name": "asdsad",
+      "lastName": "adsad",
+      "markup": 0
+    },
+    {
+      "id": "1313d579-be58-4eda-a84f-7c95a84a970f",
+      "name": "admin1",
+      "lastName": "admin2",
+      "markup": 0
     }
   ]
 }
